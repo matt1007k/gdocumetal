@@ -1,0 +1,35 @@
+.dropdown-menu ul.menu li{
+    list-style-type: none;
+}
+
+.navbar-header img{
+    background-color: #fff;
+    height: 70px;
+    width: 200px;
+}
+
+@media (max-width: 768px){
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 50px;
+        width: 200px;
+    }   
+}
+
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 0; 
+    font-size: 18px; 
+    line-height: 20px; 
+}
+.login-page .login-box .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-page .login-box .logo img{
+     background-color: #fff;
+}
+.login-page .login-box .logo h3{
+    color: #fff;
+}
